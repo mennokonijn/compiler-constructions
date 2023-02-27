@@ -1,0 +1,16 @@
+/Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug/CMakeFiles/civicc.dir
+/Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug/CMakeFiles/dot.dir
+/Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug/CMakeFiles/test.dir
+/Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug/CMakeFiles/edit_cache.dir
+/Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug/CMakeFiles/rebuild_cache.dir
+/Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug/palm/CMakeFiles/palm.dir
+/Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug/palm/CMakeFiles/palm_tests.dir
+/Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug/palm/CMakeFiles/test.dir
+/Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug/palm/CMakeFiles/edit_cache.dir
+/Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug/palm/CMakeFiles/rebuild_cache.dir
+/Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug/palm/src/CMakeFiles/test.dir
+/Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug/palm/src/CMakeFiles/edit_cache.dir
+/Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug/palm/src/CMakeFiles/rebuild_cache.dir
+/Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug/palm/include/palm/CMakeFiles/test.dir
+/Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug/palm/include/palm/CMakeFiles/edit_cache.dir
+/Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug/palm/include/palm/CMakeFiles/rebuild_cache.dir

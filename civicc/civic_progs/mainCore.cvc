@@ -1,0 +1,27 @@
+#include "core.cvc"
+
+export int main() {
+    printInt(gcd(20, 10));
+    printNewlines(1);
+    printInt(gcd(15, 27));
+    printNewlines(2);
+
+    printInt(fac(3));
+    printNewlines(1);
+    printInt(fac(9));
+    printNewlines(2);
+
+    printInt(fib(5));
+    printNewlines(1);
+    printInt(fib(9));
+    printNewlines(2);
+
+    /* Used int in order to test the print */
+    printInt(isPrime(20));
+    printNewlines(1);
+    printInt(isPrime(2));
+    printNewlines(1);
+    printInt(isPrime(13));
+
+    return 0;
+}

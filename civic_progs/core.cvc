@@ -1,0 +1,58 @@
+/* Had to define functions here because I got an error with macbook */
+
+extern void printInt(int val);
+extern void printFloat(float val);
+
+extern int scanInt();
+extern float scanFloat();
+
+extern void printSpaces(int num);
+extern void printNewlines(int num);
+
+export int gcd(int a, int b) {
+    int greatestDivider;
+    int smallestNumber;
+
+    if (a < b) smallestNumber = a; else smallestNumber = b;
+
+    /* Start at one because division by zero is not possible */
+    for (int i = 1, smallestNumber + 1) {
+        if (a % i == 0 && b % i == 0) {
+            greatestDivider = i;
+        } 
+    }
+    
+    return greatestDivider;
+}
+
+export int fac(int n) {
+    if (n == 1) {
+        return 1;
+    }
+
+    /* Keep calling function untill n = 1 */
+    return fac(n - 1) * n;
+}
+
+export int fib(int n) {
+    if (n == 1 || n == 0) {
+        return n;
+    }
+    return fib(n - 2) + fib(n - 1);
+}
+
+export bool isPrime(int n) {
+     /* Smaller than one is always not a prime number */
+    if (n <= 1) {
+        return false;
+    }
+
+    /* Check if modulo returns 0 for every number except 1 and itself */
+    for (int i = 2, n) {
+        if (n % i == 0) {
+            return false;
+        }
+    }
+
+    return true;
+}

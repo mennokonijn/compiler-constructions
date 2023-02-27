@@ -1,0 +1,13 @@
+#include "coreio.cvc"
+
+export int main() {
+    fibs(8);
+    printNewlines(1);
+    fibs(20);
+    printNewlines(2);
+
+    primes(10);
+    printNewlines(1);
+    primes(20);
+    return 0;
+}

@@ -1,0 +1,33 @@
+#include "array.cvc"
+
+export int main() {
+    int[2] testInt = [1, 2];
+    float[2] testFloat = [1.1, 2.2];
+
+    int[2, 3] testMatInt = [[1, 2, 8], [1, 2, 3]];
+    float[2, 3] testMatFloat = [[1.3, 2.5, 8.7], [1.8, 2.7, 3.5]];
+
+    float[2, 2] testMatFloatMul = [[1.3, 2.5], [1.8, 2.7]];
+
+    int[3] testScanInt;
+    float[3] testScanFloat;
+
+    int[2, 2] testScanIntMat;
+    float[2, 2] testScanFloatMat;
+
+    printIntVec(testInt);
+    printFloatVec(testFloat);
+
+    printIntMat(testMatInt);
+    printFloatMat(testMatFloat);
+
+    scanIntVec(testScanInt);
+    scanFloatVec(testScanFloat);
+
+    scanIntMat(testScanIntMat);
+    scanFloatMat(testScanFloatMat);
+
+    matMul(testMatFloatMul, testMatFloatMul, testScanFloatMat);
+
+    return 0;
+}

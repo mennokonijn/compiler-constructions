@@ -1,0 +1,49 @@
+#include "core.cvc"
+
+export void fibs(int n) {
+    /* Stop when number = 0 */
+    if (n < 0) {
+        return;
+    }
+
+    /* First call function to reverse the order */
+    fibs(n - 1);
+
+    printInt(fib(n));
+    printSpaces(1);
+
+
+}
+
+export void primes(int n) {
+    int i = 0;
+    int currentNumber = 0;
+
+    bool isPrimeClone(int n) {
+        if (n <= 1) {
+            return false;
+        }
+
+        for (int i = 2, n) {
+            if (n % i == 0) {
+                return false;
+            }
+        }
+
+        return true;
+    }
+
+    while (i < n) {
+        if (isPrimeClone(currentNumber)) {
+            printInt(currentNumber);
+            printSpaces(1);
+
+            /* Only raise i when a number is found */
+            i = i + 1;
+        }
+        /* Raise currentNumber always */
+        currentNumber = currentNumber + 1;
+    }
+
+
+}
