@@ -1,6 +1,6 @@
 palm/CMakeFiles/palm.dir/src/dbug.c.o: \
-  /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/coconut/palm/src/dbug.c \
-  /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/coconut/palm/include/palm/dbug.h \
+  /Users/mennokonijn/Desktop/Compiler-Constructions/coconut/palm/src/dbug.c \
+  /Users/mennokonijn/Desktop/Compiler-Constructions/coconut/palm/include/palm/dbug.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/stdio.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/_stdio.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/sys/cdefs.h \

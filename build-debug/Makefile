@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton
+CMAKE_SOURCE_DIR = /Users/mennokonijn/Desktop/Compiler-Constructions
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug
+CMAKE_BINARY_DIR = /Users/mennokonijn/Desktop/Compiler-Constructions/build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -97,9 +97,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug/CMakeFiles /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mennokonijn/Desktop/Compiler-Constructions/build-debug/CMakeFiles /Users/mennokonijn/Desktop/Compiler-Constructions/build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mennokonijn/Desktop/Compiler-Constructions/build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

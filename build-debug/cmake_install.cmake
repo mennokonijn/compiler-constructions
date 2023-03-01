@@ -1,4 +1,4 @@
-# Install script for directory: /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton
+# Install script for directory: /Users/mennokonijn/Desktop/Compiler-Constructions
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug/palm/cmake_install.cmake")
+  include("/Users/mennokonijn/Desktop/Compiler-Constructions/build-debug/palm/cmake_install.cmake")
 
 endif()
 
@@ -51,5 +51,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/mennokonijn/Desktop/Compiler-Constructions/build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

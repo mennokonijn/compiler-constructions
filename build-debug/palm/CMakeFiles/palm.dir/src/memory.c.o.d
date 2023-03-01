@@ -1,6 +1,6 @@
 palm/CMakeFiles/palm.dir/src/memory.c.o: \
-  /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/coconut/palm/src/memory.c \
-  /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/coconut/palm/include/palm/memory.h \
+  /Users/mennokonijn/Desktop/Compiler-Constructions/coconut/palm/src/memory.c \
+  /Users/mennokonijn/Desktop/Compiler-Constructions/coconut/palm/include/palm/memory.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/stdlib.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/Availability.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/AvailabilityVersions.h \
@@ -74,7 +74,7 @@ palm/CMakeFiles/palm.dir/src/memory.c.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/secure/_strings.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/secure/_common.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/secure/_string.h \
-  /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/coconut/palm/include/palm/dbug.h \
+  /Users/mennokonijn/Desktop/Compiler-Constructions/coconut/palm/include/palm/dbug.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/stdio.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/_stdio.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/sys/_types/_va_list.h \
@@ -82,6 +82,6 @@ palm/CMakeFiles/palm.dir/src/memory.c.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/_ctermid.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/sys/_types/_off_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/secure/_stdio.h \
-  /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/coconut/palm/include/palm/ctinfo.h \
+  /Users/mennokonijn/Desktop/Compiler-Constructions/coconut/palm/include/palm/ctinfo.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/stdarg.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/stdbool.h

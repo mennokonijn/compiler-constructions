@@ -1,6 +1,6 @@
-#line 1 "/Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug/lexer.c"
+#line 1 "/Users/mennokonijn/Desktop/Compiler-Constructions/build-debug/lexer.c"
 
-#line 3 "/Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug/lexer.c"
+#line 3 "/Users/mennokonijn/Desktop/Compiler-Constructions/build-debug/lexer.c"
 
 #define  YY_INT_ALIGNED short int
 
@@ -523,8 +523,8 @@ int yycolumn = 1;
 #define YY_USER_ACTION token_action();
 
 
-#line 526 "/Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug/lexer.c"
-#line 527 "/Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug/lexer.c"
+#line 526 "/Users/mennokonijn/Desktop/Compiler-Constructions/build-debug/lexer.c"
+#line 527 "/Users/mennokonijn/Desktop/Compiler-Constructions/build-debug/lexer.c"
 
 #define INITIAL 0
 
@@ -742,7 +742,7 @@ YY_DECL
 #line 38 "src/scanparse/lexer.l"
 
 
-#line 745 "/Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug/lexer.c"
+#line 745 "/Users/mennokonijn/Desktop/Compiler-Constructions/build-debug/lexer.c"
 
 	while ( /*CONSTCOND*/1 )		/* loops until end-of-file is reached */
 		{
@@ -945,7 +945,7 @@ YY_RULE_SETUP
 #line 82 "src/scanparse/lexer.l"
 ECHO;
 	YY_BREAK
-#line 948 "/Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug/lexer.c"
+#line 948 "/Users/mennokonijn/Desktop/Compiler-Constructions/build-debug/lexer.c"
 case YY_STATE_EOF(INITIAL):
 	yyterminate();
 

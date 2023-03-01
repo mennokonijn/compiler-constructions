@@ -2,9 +2,9 @@
 #define yyHEADER_H 1
 #define yyIN_HEADER 1
 
-#line 5 "/Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug/lexer.h"
+#line 5 "/Users/mennokonijn/Desktop/Compiler-Constructions/build-debug/lexer.h"
 
-#line 7 "/Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug/lexer.h"
+#line 7 "/Users/mennokonijn/Desktop/Compiler-Constructions/build-debug/lexer.h"
 
 #define  YY_INT_ALIGNED short int
 
@@ -473,6 +473,6 @@ extern int yylex (void);
 #line 82 "src/scanparse/lexer.l"
 
 
-#line 476 "/Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug/lexer.h"
+#line 476 "/Users/mennokonijn/Desktop/Compiler-Constructions/build-debug/lexer.h"
 #undef yyIN_HEADER
 #endif /* yyHEADER_H */

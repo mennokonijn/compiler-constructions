@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton
+CMAKE_SOURCE_DIR = /Users/mennokonijn/Desktop/Compiler-Constructions
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug
+CMAKE_BINARY_DIR = /Users/mennokonijn/Desktop/Compiler-Constructions/build-debug
 
 # Utility rule file for dot.
 
@@ -67,7 +67,7 @@ include CMakeFiles/dot.dir/compiler_depend.make
 include CMakeFiles/dot.dir/progress.make
 
 CMakeFiles/dot:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generate a png of your ast based on the generated dot diagram."
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/mennokonijn/Desktop/Compiler-Constructions/build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generate a png of your ast based on the generated dot diagram."
 	dot -Tpng ccngen/ast.dot > ast.png
 
 dot: CMakeFiles/dot
@@ -83,6 +83,6 @@ CMakeFiles/dot.dir/clean:
 .PHONY : CMakeFiles/dot.dir/clean
 
 CMakeFiles/dot.dir/depend:
-	cd /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug/CMakeFiles/dot.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/mennokonijn/Desktop/Compiler-Constructions/build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/mennokonijn/Desktop/Compiler-Constructions /Users/mennokonijn/Desktop/Compiler-Constructions /Users/mennokonijn/Desktop/Compiler-Constructions/build-debug /Users/mennokonijn/Desktop/Compiler-Constructions/build-debug /Users/mennokonijn/Desktop/Compiler-Constructions/build-debug/CMakeFiles/dot.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/dot.dir/depend
 

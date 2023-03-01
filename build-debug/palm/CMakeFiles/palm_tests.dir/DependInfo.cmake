@@ -8,12 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/coconut/palm/tests.c" "palm/CMakeFiles/palm_tests.dir/tests.c.o" "gcc" "palm/CMakeFiles/palm_tests.dir/tests.c.o.d"
+  "/Users/mennokonijn/Desktop/Compiler-Constructions/coconut/palm/tests.c" "palm/CMakeFiles/palm_tests.dir/tests.c.o" "gcc" "palm/CMakeFiles/palm_tests.dir/tests.c.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug/palm/CMakeFiles/palm.dir/DependInfo.cmake"
+  "/Users/mennokonijn/Desktop/Compiler-Constructions/build-debug/palm/CMakeFiles/palm.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

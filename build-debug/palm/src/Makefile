@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton
+CMAKE_SOURCE_DIR = /Users/mennokonijn/Desktop/Compiler-Constructions
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug
+CMAKE_BINARY_DIR = /Users/mennokonijn/Desktop/Compiler-Constructions/build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -97,14 +97,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug/CMakeFiles /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug/palm/src//CMakeFiles/progress.marks
-	cd /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 palm/src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug/CMakeFiles 0
+	cd /Users/mennokonijn/Desktop/Compiler-Constructions/build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /Users/mennokonijn/Desktop/Compiler-Constructions/build-debug/CMakeFiles /Users/mennokonijn/Desktop/Compiler-Constructions/build-debug/palm/src//CMakeFiles/progress.marks
+	cd /Users/mennokonijn/Desktop/Compiler-Constructions/build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 palm/src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mennokonijn/Desktop/Compiler-Constructions/build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 palm/src/clean
+	cd /Users/mennokonijn/Desktop/Compiler-Constructions/build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 palm/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -113,17 +113,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 palm/src/preinstall
+	cd /Users/mennokonijn/Desktop/Compiler-Constructions/build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 palm/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 palm/src/preinstall
+	cd /Users/mennokonijn/Desktop/Compiler-Constructions/build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 palm/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/mennokonijn/Desktop/Compiler-Constructions/build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -146,6 +146,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/mennokonijn/Desktop/Compiler-Constructions/build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

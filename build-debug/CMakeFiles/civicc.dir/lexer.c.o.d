@@ -1,5 +1,5 @@
 CMakeFiles/civicc.dir/lexer.c.o: \
-  /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug/lexer.c \
+  /Users/mennokonijn/Desktop/Compiler-Constructions/build-debug/lexer.c \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/stdio.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/_stdio.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/sys/cdefs.h \
@@ -84,16 +84,16 @@ CMakeFiles/civicc.dir/lexer.c.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/sys/_types/_mode_t.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/inttypes.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/inttypes.h \
-  /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug/ccngen/ccngen/ast.h \
-  /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/coconut/copra/ccn/ccn_types.h \
-  /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug/ccngen/ccngen/enum.h \
+  /Users/mennokonijn/Desktop/Compiler-Constructions/build-debug/ccngen/ccngen/ast.h \
+  /Users/mennokonijn/Desktop/Compiler-Constructions/coconut/copra/ccn/ccn_types.h \
+  /Users/mennokonijn/Desktop/Compiler-Constructions/build-debug/ccngen/ccngen/enum.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/stdbool.h \
-  /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug/parser.h \
-  /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/coconut/palm/include/palm/str.h \
-  /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/src/global/globals.h \
+  /Users/mennokonijn/Desktop/Compiler-Constructions/build-debug/parser.h \
+  /Users/mennokonijn/Desktop/Compiler-Constructions/coconut/palm/include/palm/str.h \
+  /Users/mennokonijn/Desktop/Compiler-Constructions/src/global/globals.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/stddef.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/__stddef_max_align_t.h \
-  /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/coconut/palm/include/palm/ctinfo.h \
+  /Users/mennokonijn/Desktop/Compiler-Constructions/coconut/palm/include/palm/ctinfo.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/stdarg.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/unistd.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/sys/unistd.h \

@@ -1,13 +1,13 @@
 CMakeFiles/civicc.dir/ccngen/action_handling.c.o: \
-  /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug/ccngen/action_handling.c \
+  /Users/mennokonijn/Desktop/Compiler-Constructions/build-debug/ccngen/action_handling.c \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/stddef.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/__stddef_max_align_t.h \
-  /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/coconut/copra/ccn/action_types.h \
+  /Users/mennokonijn/Desktop/Compiler-Constructions/coconut/copra/ccn/action_types.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/stdbool.h \
-  /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug/ccngen/ccngen/enum.h \
-  /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug/ccngen/ccngen/action_handling.h \
-  /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug/ccngen/ccngen/ast.h \
-  /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/coconut/copra/ccn/ccn_types.h \
+  /Users/mennokonijn/Desktop/Compiler-Constructions/build-debug/ccngen/ccngen/enum.h \
+  /Users/mennokonijn/Desktop/Compiler-Constructions/build-debug/ccngen/ccngen/action_handling.h \
+  /Users/mennokonijn/Desktop/Compiler-Constructions/build-debug/ccngen/ccngen/ast.h \
+  /Users/mennokonijn/Desktop/Compiler-Constructions/coconut/copra/ccn/ccn_types.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/stdint.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/stdint.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/sys/_types/_int8_t.h \
@@ -35,5 +35,5 @@ CMakeFiles/civicc.dir/ccngen/action_handling.c.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/sys/_types/_uintptr_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/_types/_intmax_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/_types/_uintmax_t.h \
-  /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug/ccngen/ccngen/gate.h \
-  /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/coconut/copra/ccn/phase_driver.h
+  /Users/mennokonijn/Desktop/Compiler-Constructions/build-debug/ccngen/ccngen/gate.h \
+  /Users/mennokonijn/Desktop/Compiler-Constructions/coconut/copra/ccn/phase_driver.h

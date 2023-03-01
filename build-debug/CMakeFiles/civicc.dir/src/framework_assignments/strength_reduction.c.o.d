@@ -1,13 +1,13 @@
 CMakeFiles/civicc.dir/src/framework_assignments/strength_reduction.c.o: \
-  /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/src/framework_assignments/strength_reduction.c \
-  /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/coconut/copra/ccn/ccn.h \
-  /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/coconut/copra/ccn/phase_driver.h \
+  /Users/mennokonijn/Desktop/Compiler-Constructions/src/framework_assignments/strength_reduction.c \
+  /Users/mennokonijn/Desktop/Compiler-Constructions/coconut/copra/ccn/ccn.h \
+  /Users/mennokonijn/Desktop/Compiler-Constructions/coconut/copra/ccn/phase_driver.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/stdbool.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/stddef.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/__stddef_max_align_t.h \
-  /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug/ccngen/ccngen/ast.h \
-  /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/coconut/copra/ccn/ccn_types.h \
-  /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug/ccngen/ccngen/enum.h \
+  /Users/mennokonijn/Desktop/Compiler-Constructions/build-debug/ccngen/ccngen/ast.h \
+  /Users/mennokonijn/Desktop/Compiler-Constructions/coconut/copra/ccn/ccn_types.h \
+  /Users/mennokonijn/Desktop/Compiler-Constructions/build-debug/ccngen/ccngen/enum.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/stdint.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/stdint.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/sys/_types/_int8_t.h \
@@ -35,6 +35,6 @@ CMakeFiles/civicc.dir/src/framework_assignments/strength_reduction.c.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/sys/_types/_uintptr_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/_types/_intmax_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/_types/_uintmax_t.h \
-  /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/coconut/copra/ccn/dynamic_core.h \
-  /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug/ccngen/ccngen/trav_data.h \
-  /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug/ccngen/ccngen/ccn_defs.h
+  /Users/mennokonijn/Desktop/Compiler-Constructions/coconut/copra/ccn/dynamic_core.h \
+  /Users/mennokonijn/Desktop/Compiler-Constructions/build-debug/ccngen/ccngen/trav_data.h \
+  /Users/mennokonijn/Desktop/Compiler-Constructions/build-debug/ccngen/ccngen/ccn_defs.h

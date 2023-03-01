@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton
+CMAKE_SOURCE_DIR = /Users/mennokonijn/Desktop/Compiler-Constructions
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug
+CMAKE_BINARY_DIR = /Users/mennokonijn/Desktop/Compiler-Constructions/build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -97,14 +97,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug/CMakeFiles /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug/palm//CMakeFiles/progress.marks
-	cd /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 palm/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug/CMakeFiles 0
+	cd /Users/mennokonijn/Desktop/Compiler-Constructions/build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /Users/mennokonijn/Desktop/Compiler-Constructions/build-debug/CMakeFiles /Users/mennokonijn/Desktop/Compiler-Constructions/build-debug/palm//CMakeFiles/progress.marks
+	cd /Users/mennokonijn/Desktop/Compiler-Constructions/build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 palm/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mennokonijn/Desktop/Compiler-Constructions/build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 palm/clean
+	cd /Users/mennokonijn/Desktop/Compiler-Constructions/build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 palm/clean
 .PHONY : clean
 
 # The main clean target
@@ -113,22 +113,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 palm/preinstall
+	cd /Users/mennokonijn/Desktop/Compiler-Constructions/build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 palm/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 palm/preinstall
+	cd /Users/mennokonijn/Desktop/Compiler-Constructions/build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 palm/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/mennokonijn/Desktop/Compiler-Constructions/build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 palm/CMakeFiles/palm.dir/rule:
-	cd /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 palm/CMakeFiles/palm.dir/rule
+	cd /Users/mennokonijn/Desktop/Compiler-Constructions/build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 palm/CMakeFiles/palm.dir/rule
 .PHONY : palm/CMakeFiles/palm.dir/rule
 
 # Convenience name for target.
@@ -137,12 +137,12 @@ palm: palm/CMakeFiles/palm.dir/rule
 
 # fast build rule for target.
 palm/fast:
-	cd /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug && $(MAKE) $(MAKESILENT) -f palm/CMakeFiles/palm.dir/build.make palm/CMakeFiles/palm.dir/build
+	cd /Users/mennokonijn/Desktop/Compiler-Constructions/build-debug && $(MAKE) $(MAKESILENT) -f palm/CMakeFiles/palm.dir/build.make palm/CMakeFiles/palm.dir/build
 .PHONY : palm/fast
 
 # Convenience name for target.
 palm/CMakeFiles/palm_tests.dir/rule:
-	cd /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 palm/CMakeFiles/palm_tests.dir/rule
+	cd /Users/mennokonijn/Desktop/Compiler-Constructions/build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 palm/CMakeFiles/palm_tests.dir/rule
 .PHONY : palm/CMakeFiles/palm_tests.dir/rule
 
 # Convenience name for target.
@@ -151,7 +151,7 @@ palm_tests: palm/CMakeFiles/palm_tests.dir/rule
 
 # fast build rule for target.
 palm_tests/fast:
-	cd /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug && $(MAKE) $(MAKESILENT) -f palm/CMakeFiles/palm_tests.dir/build.make palm/CMakeFiles/palm_tests.dir/build
+	cd /Users/mennokonijn/Desktop/Compiler-Constructions/build-debug && $(MAKE) $(MAKESILENT) -f palm/CMakeFiles/palm_tests.dir/build.make palm/CMakeFiles/palm_tests.dir/build
 .PHONY : palm_tests/fast
 
 src/ctinfo.o: src/ctinfo.c.o
@@ -159,7 +159,7 @@ src/ctinfo.o: src/ctinfo.c.o
 
 # target to build an object file
 src/ctinfo.c.o:
-	cd /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug && $(MAKE) $(MAKESILENT) -f palm/CMakeFiles/palm.dir/build.make palm/CMakeFiles/palm.dir/src/ctinfo.c.o
+	cd /Users/mennokonijn/Desktop/Compiler-Constructions/build-debug && $(MAKE) $(MAKESILENT) -f palm/CMakeFiles/palm.dir/build.make palm/CMakeFiles/palm.dir/src/ctinfo.c.o
 .PHONY : src/ctinfo.c.o
 
 src/ctinfo.i: src/ctinfo.c.i
@@ -167,7 +167,7 @@ src/ctinfo.i: src/ctinfo.c.i
 
 # target to preprocess a source file
 src/ctinfo.c.i:
-	cd /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug && $(MAKE) $(MAKESILENT) -f palm/CMakeFiles/palm.dir/build.make palm/CMakeFiles/palm.dir/src/ctinfo.c.i
+	cd /Users/mennokonijn/Desktop/Compiler-Constructions/build-debug && $(MAKE) $(MAKESILENT) -f palm/CMakeFiles/palm.dir/build.make palm/CMakeFiles/palm.dir/src/ctinfo.c.i
 .PHONY : src/ctinfo.c.i
 
 src/ctinfo.s: src/ctinfo.c.s
@@ -175,7 +175,7 @@ src/ctinfo.s: src/ctinfo.c.s
 
 # target to generate assembly for a file
 src/ctinfo.c.s:
-	cd /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug && $(MAKE) $(MAKESILENT) -f palm/CMakeFiles/palm.dir/build.make palm/CMakeFiles/palm.dir/src/ctinfo.c.s
+	cd /Users/mennokonijn/Desktop/Compiler-Constructions/build-debug && $(MAKE) $(MAKESILENT) -f palm/CMakeFiles/palm.dir/build.make palm/CMakeFiles/palm.dir/src/ctinfo.c.s
 .PHONY : src/ctinfo.c.s
 
 src/dbug.o: src/dbug.c.o
@@ -183,7 +183,7 @@ src/dbug.o: src/dbug.c.o
 
 # target to build an object file
 src/dbug.c.o:
-	cd /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug && $(MAKE) $(MAKESILENT) -f palm/CMakeFiles/palm.dir/build.make palm/CMakeFiles/palm.dir/src/dbug.c.o
+	cd /Users/mennokonijn/Desktop/Compiler-Constructions/build-debug && $(MAKE) $(MAKESILENT) -f palm/CMakeFiles/palm.dir/build.make palm/CMakeFiles/palm.dir/src/dbug.c.o
 .PHONY : src/dbug.c.o
 
 src/dbug.i: src/dbug.c.i
@@ -191,7 +191,7 @@ src/dbug.i: src/dbug.c.i
 
 # target to preprocess a source file
 src/dbug.c.i:
-	cd /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug && $(MAKE) $(MAKESILENT) -f palm/CMakeFiles/palm.dir/build.make palm/CMakeFiles/palm.dir/src/dbug.c.i
+	cd /Users/mennokonijn/Desktop/Compiler-Constructions/build-debug && $(MAKE) $(MAKESILENT) -f palm/CMakeFiles/palm.dir/build.make palm/CMakeFiles/palm.dir/src/dbug.c.i
 .PHONY : src/dbug.c.i
 
 src/dbug.s: src/dbug.c.s
@@ -199,7 +199,7 @@ src/dbug.s: src/dbug.c.s
 
 # target to generate assembly for a file
 src/dbug.c.s:
-	cd /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug && $(MAKE) $(MAKESILENT) -f palm/CMakeFiles/palm.dir/build.make palm/CMakeFiles/palm.dir/src/dbug.c.s
+	cd /Users/mennokonijn/Desktop/Compiler-Constructions/build-debug && $(MAKE) $(MAKESILENT) -f palm/CMakeFiles/palm.dir/build.make palm/CMakeFiles/palm.dir/src/dbug.c.s
 .PHONY : src/dbug.c.s
 
 src/filesystem.o: src/filesystem.c.o
@@ -207,7 +207,7 @@ src/filesystem.o: src/filesystem.c.o
 
 # target to build an object file
 src/filesystem.c.o:
-	cd /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug && $(MAKE) $(MAKESILENT) -f palm/CMakeFiles/palm.dir/build.make palm/CMakeFiles/palm.dir/src/filesystem.c.o
+	cd /Users/mennokonijn/Desktop/Compiler-Constructions/build-debug && $(MAKE) $(MAKESILENT) -f palm/CMakeFiles/palm.dir/build.make palm/CMakeFiles/palm.dir/src/filesystem.c.o
 .PHONY : src/filesystem.c.o
 
 src/filesystem.i: src/filesystem.c.i
@@ -215,7 +215,7 @@ src/filesystem.i: src/filesystem.c.i
 
 # target to preprocess a source file
 src/filesystem.c.i:
-	cd /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug && $(MAKE) $(MAKESILENT) -f palm/CMakeFiles/palm.dir/build.make palm/CMakeFiles/palm.dir/src/filesystem.c.i
+	cd /Users/mennokonijn/Desktop/Compiler-Constructions/build-debug && $(MAKE) $(MAKESILENT) -f palm/CMakeFiles/palm.dir/build.make palm/CMakeFiles/palm.dir/src/filesystem.c.i
 .PHONY : src/filesystem.c.i
 
 src/filesystem.s: src/filesystem.c.s
@@ -223,7 +223,7 @@ src/filesystem.s: src/filesystem.c.s
 
 # target to generate assembly for a file
 src/filesystem.c.s:
-	cd /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug && $(MAKE) $(MAKESILENT) -f palm/CMakeFiles/palm.dir/build.make palm/CMakeFiles/palm.dir/src/filesystem.c.s
+	cd /Users/mennokonijn/Desktop/Compiler-Constructions/build-debug && $(MAKE) $(MAKESILENT) -f palm/CMakeFiles/palm.dir/build.make palm/CMakeFiles/palm.dir/src/filesystem.c.s
 .PHONY : src/filesystem.c.s
 
 src/hash_table.o: src/hash_table.c.o
@@ -231,7 +231,7 @@ src/hash_table.o: src/hash_table.c.o
 
 # target to build an object file
 src/hash_table.c.o:
-	cd /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug && $(MAKE) $(MAKESILENT) -f palm/CMakeFiles/palm.dir/build.make palm/CMakeFiles/palm.dir/src/hash_table.c.o
+	cd /Users/mennokonijn/Desktop/Compiler-Constructions/build-debug && $(MAKE) $(MAKESILENT) -f palm/CMakeFiles/palm.dir/build.make palm/CMakeFiles/palm.dir/src/hash_table.c.o
 .PHONY : src/hash_table.c.o
 
 src/hash_table.i: src/hash_table.c.i
@@ -239,7 +239,7 @@ src/hash_table.i: src/hash_table.c.i
 
 # target to preprocess a source file
 src/hash_table.c.i:
-	cd /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug && $(MAKE) $(MAKESILENT) -f palm/CMakeFiles/palm.dir/build.make palm/CMakeFiles/palm.dir/src/hash_table.c.i
+	cd /Users/mennokonijn/Desktop/Compiler-Constructions/build-debug && $(MAKE) $(MAKESILENT) -f palm/CMakeFiles/palm.dir/build.make palm/CMakeFiles/palm.dir/src/hash_table.c.i
 .PHONY : src/hash_table.c.i
 
 src/hash_table.s: src/hash_table.c.s
@@ -247,7 +247,7 @@ src/hash_table.s: src/hash_table.c.s
 
 # target to generate assembly for a file
 src/hash_table.c.s:
-	cd /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug && $(MAKE) $(MAKESILENT) -f palm/CMakeFiles/palm.dir/build.make palm/CMakeFiles/palm.dir/src/hash_table.c.s
+	cd /Users/mennokonijn/Desktop/Compiler-Constructions/build-debug && $(MAKE) $(MAKESILENT) -f palm/CMakeFiles/palm.dir/build.make palm/CMakeFiles/palm.dir/src/hash_table.c.s
 .PHONY : src/hash_table.c.s
 
 src/memory.o: src/memory.c.o
@@ -255,7 +255,7 @@ src/memory.o: src/memory.c.o
 
 # target to build an object file
 src/memory.c.o:
-	cd /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug && $(MAKE) $(MAKESILENT) -f palm/CMakeFiles/palm.dir/build.make palm/CMakeFiles/palm.dir/src/memory.c.o
+	cd /Users/mennokonijn/Desktop/Compiler-Constructions/build-debug && $(MAKE) $(MAKESILENT) -f palm/CMakeFiles/palm.dir/build.make palm/CMakeFiles/palm.dir/src/memory.c.o
 .PHONY : src/memory.c.o
 
 src/memory.i: src/memory.c.i
@@ -263,7 +263,7 @@ src/memory.i: src/memory.c.i
 
 # target to preprocess a source file
 src/memory.c.i:
-	cd /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug && $(MAKE) $(MAKESILENT) -f palm/CMakeFiles/palm.dir/build.make palm/CMakeFiles/palm.dir/src/memory.c.i
+	cd /Users/mennokonijn/Desktop/Compiler-Constructions/build-debug && $(MAKE) $(MAKESILENT) -f palm/CMakeFiles/palm.dir/build.make palm/CMakeFiles/palm.dir/src/memory.c.i
 .PHONY : src/memory.c.i
 
 src/memory.s: src/memory.c.s
@@ -271,7 +271,7 @@ src/memory.s: src/memory.c.s
 
 # target to generate assembly for a file
 src/memory.c.s:
-	cd /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug && $(MAKE) $(MAKESILENT) -f palm/CMakeFiles/palm.dir/build.make palm/CMakeFiles/palm.dir/src/memory.c.s
+	cd /Users/mennokonijn/Desktop/Compiler-Constructions/build-debug && $(MAKE) $(MAKESILENT) -f palm/CMakeFiles/palm.dir/build.make palm/CMakeFiles/palm.dir/src/memory.c.s
 .PHONY : src/memory.c.s
 
 src/str.o: src/str.c.o
@@ -279,7 +279,7 @@ src/str.o: src/str.c.o
 
 # target to build an object file
 src/str.c.o:
-	cd /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug && $(MAKE) $(MAKESILENT) -f palm/CMakeFiles/palm.dir/build.make palm/CMakeFiles/palm.dir/src/str.c.o
+	cd /Users/mennokonijn/Desktop/Compiler-Constructions/build-debug && $(MAKE) $(MAKESILENT) -f palm/CMakeFiles/palm.dir/build.make palm/CMakeFiles/palm.dir/src/str.c.o
 .PHONY : src/str.c.o
 
 src/str.i: src/str.c.i
@@ -287,7 +287,7 @@ src/str.i: src/str.c.i
 
 # target to preprocess a source file
 src/str.c.i:
-	cd /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug && $(MAKE) $(MAKESILENT) -f palm/CMakeFiles/palm.dir/build.make palm/CMakeFiles/palm.dir/src/str.c.i
+	cd /Users/mennokonijn/Desktop/Compiler-Constructions/build-debug && $(MAKE) $(MAKESILENT) -f palm/CMakeFiles/palm.dir/build.make palm/CMakeFiles/palm.dir/src/str.c.i
 .PHONY : src/str.c.i
 
 src/str.s: src/str.c.s
@@ -295,7 +295,7 @@ src/str.s: src/str.c.s
 
 # target to generate assembly for a file
 src/str.c.s:
-	cd /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug && $(MAKE) $(MAKESILENT) -f palm/CMakeFiles/palm.dir/build.make palm/CMakeFiles/palm.dir/src/str.c.s
+	cd /Users/mennokonijn/Desktop/Compiler-Constructions/build-debug && $(MAKE) $(MAKESILENT) -f palm/CMakeFiles/palm.dir/build.make palm/CMakeFiles/palm.dir/src/str.c.s
 .PHONY : src/str.c.s
 
 tests.o: tests.c.o
@@ -303,7 +303,7 @@ tests.o: tests.c.o
 
 # target to build an object file
 tests.c.o:
-	cd /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug && $(MAKE) $(MAKESILENT) -f palm/CMakeFiles/palm_tests.dir/build.make palm/CMakeFiles/palm_tests.dir/tests.c.o
+	cd /Users/mennokonijn/Desktop/Compiler-Constructions/build-debug && $(MAKE) $(MAKESILENT) -f palm/CMakeFiles/palm_tests.dir/build.make palm/CMakeFiles/palm_tests.dir/tests.c.o
 .PHONY : tests.c.o
 
 tests.i: tests.c.i
@@ -311,7 +311,7 @@ tests.i: tests.c.i
 
 # target to preprocess a source file
 tests.c.i:
-	cd /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug && $(MAKE) $(MAKESILENT) -f palm/CMakeFiles/palm_tests.dir/build.make palm/CMakeFiles/palm_tests.dir/tests.c.i
+	cd /Users/mennokonijn/Desktop/Compiler-Constructions/build-debug && $(MAKE) $(MAKESILENT) -f palm/CMakeFiles/palm_tests.dir/build.make palm/CMakeFiles/palm_tests.dir/tests.c.i
 .PHONY : tests.c.i
 
 tests.s: tests.c.s
@@ -319,7 +319,7 @@ tests.s: tests.c.s
 
 # target to generate assembly for a file
 tests.c.s:
-	cd /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug && $(MAKE) $(MAKESILENT) -f palm/CMakeFiles/palm_tests.dir/build.make palm/CMakeFiles/palm_tests.dir/tests.c.s
+	cd /Users/mennokonijn/Desktop/Compiler-Constructions/build-debug && $(MAKE) $(MAKESILENT) -f palm/CMakeFiles/palm_tests.dir/build.make palm/CMakeFiles/palm_tests.dir/tests.c.s
 .PHONY : tests.c.s
 
 # Help Target
@@ -365,6 +365,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/mennokonijn/Desktop/Compiler-Constructions/build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

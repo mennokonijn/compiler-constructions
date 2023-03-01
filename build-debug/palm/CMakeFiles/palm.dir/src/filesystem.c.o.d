@@ -1,6 +1,6 @@
 palm/CMakeFiles/palm.dir/src/filesystem.c.o: \
-  /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/coconut/palm/src/filesystem.c \
-  /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/coconut/palm/include/palm/filesystem.h \
+  /Users/mennokonijn/Desktop/Compiler-Constructions/coconut/palm/src/filesystem.c \
+  /Users/mennokonijn/Desktop/Compiler-Constructions/coconut/palm/include/palm/filesystem.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/sys/types.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/sys/appleapiopts.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/sys/cdefs.h \

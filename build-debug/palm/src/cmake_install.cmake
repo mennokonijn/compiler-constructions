@@ -1,4 +1,4 @@
-# Install script for directory: /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/coconut/palm/src
+# Install script for directory: /Users/mennokonijn/Desktop/Compiler-Constructions/coconut/palm/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

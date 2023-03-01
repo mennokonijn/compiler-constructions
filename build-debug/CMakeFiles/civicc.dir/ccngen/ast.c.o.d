@@ -1,8 +1,8 @@
 CMakeFiles/civicc.dir/ccngen/ast.c.o: \
-  /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug/ccngen/ast.c \
-  /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug/ccngen/ccngen/ast.h \
-  /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/coconut/copra/ccn/ccn_types.h \
-  /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug/ccngen/ccngen/enum.h \
+  /Users/mennokonijn/Desktop/Compiler-Constructions/build-debug/ccngen/ast.c \
+  /Users/mennokonijn/Desktop/Compiler-Constructions/build-debug/ccngen/ccngen/ast.h \
+  /Users/mennokonijn/Desktop/Compiler-Constructions/coconut/copra/ccn/ccn_types.h \
+  /Users/mennokonijn/Desktop/Compiler-Constructions/build-debug/ccngen/ccngen/enum.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/stdbool.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/stdint.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/stdint.h \
@@ -31,7 +31,7 @@ CMakeFiles/civicc.dir/ccngen/ast.c.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/sys/_types/_uintptr_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/_types/_intmax_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/_types/_uintmax_t.h \
-  /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/coconut/palm/include/palm/memory.h \
+  /Users/mennokonijn/Desktop/Compiler-Constructions/coconut/palm/include/palm/memory.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/stdlib.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/Availability.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/AvailabilityVersions.h \

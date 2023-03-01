@@ -35,8 +35,8 @@
    especially those whose name start with YY_ or yy_.  They are
    private implementation details that can be changed or removed.  */
 
-#ifndef YY_YY_USERS_MENNOKONIJN_DESKTOP_SCHOOL_PREMASTER_COMPILERCONSTRUCTIONS_TEST_CIVICC_SKELETON_BUILD_DEBUG_PARSER_H_INCLUDED
-# define YY_YY_USERS_MENNOKONIJN_DESKTOP_SCHOOL_PREMASTER_COMPILERCONSTRUCTIONS_TEST_CIVICC_SKELETON_BUILD_DEBUG_PARSER_H_INCLUDED
+#ifndef YY_YY_USERS_MENNOKONIJN_DESKTOP_COMPILER_CONSTRUCTIONS_BUILD_DEBUG_PARSER_H_INCLUDED
+# define YY_YY_USERS_MENNOKONIJN_DESKTOP_COMPILER_CONSTRUCTIONS_BUILD_DEBUG_PARSER_H_INCLUDED
 /* Debug traces.  */
 #ifndef YYDEBUG
 # define YYDEBUG 0
@@ -93,7 +93,7 @@ union YYSTYPE
  enum binop_type     cbinop;
  node_st             *node;
 
-#line 97 "/Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug/parser.h"
+#line 97 "/Users/mennokonijn/Desktop/Compiler-Constructions/build-debug/parser.h"
 
 };
 typedef union YYSTYPE YYSTYPE;
@@ -122,4 +122,4 @@ extern YYLTYPE yylloc;
 int yyparse (void);
 
 
-#endif /* !YY_YY_USERS_MENNOKONIJN_DESKTOP_SCHOOL_PREMASTER_COMPILERCONSTRUCTIONS_TEST_CIVICC_SKELETON_BUILD_DEBUG_PARSER_H_INCLUDED  */
+#endif /* !YY_YY_USERS_MENNOKONIJN_DESKTOP_COMPILER_CONSTRUCTIONS_BUILD_DEBUG_PARSER_H_INCLUDED  */

@@ -1,4 +1,4 @@
-# Install script for directory: /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/coconut/palm
+# Install script for directory: /Users/mennokonijn/Desktop/Compiler-Constructions/coconut/palm
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,8 +39,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug/palm/src/cmake_install.cmake")
-  include("/Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug/palm/include/palm/cmake_install.cmake")
+  include("/Users/mennokonijn/Desktop/Compiler-Constructions/build-debug/palm/src/cmake_install.cmake")
+  include("/Users/mennokonijn/Desktop/Compiler-Constructions/build-debug/palm/include/palm/cmake_install.cmake")
 
 endif()
 

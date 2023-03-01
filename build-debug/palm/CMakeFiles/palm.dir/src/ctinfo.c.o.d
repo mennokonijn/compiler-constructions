@@ -1,6 +1,6 @@
 palm/CMakeFiles/palm.dir/src/ctinfo.c.o: \
-  /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/coconut/palm/src/ctinfo.c \
-  /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/coconut/palm/include/palm/ctinfo.h \
+  /Users/mennokonijn/Desktop/Compiler-Constructions/coconut/palm/src/ctinfo.c \
+  /Users/mennokonijn/Desktop/Compiler-Constructions/coconut/palm/include/palm/ctinfo.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/stdarg.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/stdbool.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/signal.h \
@@ -85,6 +85,6 @@ palm/CMakeFiles/palm.dir/src/ctinfo.c.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/strings.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/secure/_strings.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/secure/_string.h \
-  /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/coconut/palm/include/palm/dbug.h \
-  /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/coconut/palm/include/palm/memory.h \
-  /Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/coconut/palm/include/palm/str.h
+  /Users/mennokonijn/Desktop/Compiler-Constructions/coconut/palm/include/palm/dbug.h \
+  /Users/mennokonijn/Desktop/Compiler-Constructions/coconut/palm/include/palm/memory.h \
+  /Users/mennokonijn/Desktop/Compiler-Constructions/coconut/palm/include/palm/str.h

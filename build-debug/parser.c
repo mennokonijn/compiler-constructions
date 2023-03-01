@@ -90,7 +90,7 @@ void AddLocToNode(node_st *node, void *begin_loc, void *end_loc);
 
 
 
-#line 94 "/Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug/parser.c"
+#line 94 "/Users/mennokonijn/Desktop/Compiler-Constructions/build-debug/parser.c"
 
 # ifndef YY_CAST
 #  ifdef __cplusplus
@@ -1246,7 +1246,7 @@ yyreduce:
         {
           parseresult = ASTprogram((yyvsp[0].node));
         }
-#line 1250 "/Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug/parser.c"
+#line 1250 "/Users/mennokonijn/Desktop/Compiler-Constructions/build-debug/parser.c"
     break;
 
   case 3: /* stmts: stmt stmts  */
@@ -1254,7 +1254,7 @@ yyreduce:
         {
           (yyval.node) = ASTstmts((yyvsp[-1].node), (yyvsp[0].node));
         }
-#line 1258 "/Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug/parser.c"
+#line 1258 "/Users/mennokonijn/Desktop/Compiler-Constructions/build-debug/parser.c"
     break;
 
   case 4: /* stmts: stmt  */
@@ -1262,7 +1262,7 @@ yyreduce:
         {
           (yyval.node) = ASTstmts((yyvsp[0].node), NULL);
         }
-#line 1266 "/Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug/parser.c"
+#line 1266 "/Users/mennokonijn/Desktop/Compiler-Constructions/build-debug/parser.c"
     break;
 
   case 5: /* stmt: assign  */
@@ -1270,7 +1270,7 @@ yyreduce:
        {
          (yyval.node) = (yyvsp[0].node);
        }
-#line 1274 "/Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug/parser.c"
+#line 1274 "/Users/mennokonijn/Desktop/Compiler-Constructions/build-debug/parser.c"
     break;
 
   case 6: /* assign: varlet LET expr SEMICOLON  */
@@ -1278,7 +1278,7 @@ yyreduce:
         {
           (yyval.node) = ASTassign((yyvsp[-3].node), (yyvsp[-1].node));
         }
-#line 1282 "/Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug/parser.c"
+#line 1282 "/Users/mennokonijn/Desktop/Compiler-Constructions/build-debug/parser.c"
     break;
 
   case 7: /* varlet: ID  */
@@ -1287,7 +1287,7 @@ yyreduce:
           (yyval.node) = ASTvarlet((yyvsp[0].id));
           AddLocToNode((yyval.node), &(yylsp[0]), &(yylsp[0]));
         }
-#line 1291 "/Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug/parser.c"
+#line 1291 "/Users/mennokonijn/Desktop/Compiler-Constructions/build-debug/parser.c"
     break;
 
   case 8: /* expr: constant  */
@@ -1295,7 +1295,7 @@ yyreduce:
       {
         (yyval.node) = (yyvsp[0].node);
       }
-#line 1299 "/Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug/parser.c"
+#line 1299 "/Users/mennokonijn/Desktop/Compiler-Constructions/build-debug/parser.c"
     break;
 
   case 9: /* expr: ID  */
@@ -1303,7 +1303,7 @@ yyreduce:
       {
         (yyval.node) = ASTvar((yyvsp[0].id));
       }
-#line 1307 "/Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug/parser.c"
+#line 1307 "/Users/mennokonijn/Desktop/Compiler-Constructions/build-debug/parser.c"
     break;
 
   case 10: /* expr: BRACKET_L expr binop expr BRACKET_R  */
@@ -1312,7 +1312,7 @@ yyreduce:
         (yyval.node) = ASTbinop( (yyvsp[-3].node), (yyvsp[-1].node), (yyvsp[-2].cbinop));
         AddLocToNode((yyval.node), &(yylsp[-3]), &(yylsp[-1]));
       }
-#line 1316 "/Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug/parser.c"
+#line 1316 "/Users/mennokonijn/Desktop/Compiler-Constructions/build-debug/parser.c"
     break;
 
   case 11: /* constant: floatval  */
@@ -1320,7 +1320,7 @@ yyreduce:
           {
             (yyval.node) = (yyvsp[0].node);
           }
-#line 1324 "/Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug/parser.c"
+#line 1324 "/Users/mennokonijn/Desktop/Compiler-Constructions/build-debug/parser.c"
     break;
 
   case 12: /* constant: intval  */
@@ -1328,7 +1328,7 @@ yyreduce:
           {
             (yyval.node) = (yyvsp[0].node);
           }
-#line 1332 "/Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug/parser.c"
+#line 1332 "/Users/mennokonijn/Desktop/Compiler-Constructions/build-debug/parser.c"
     break;
 
   case 13: /* constant: boolval  */
@@ -1336,7 +1336,7 @@ yyreduce:
           {
             (yyval.node) = (yyvsp[0].node);
           }
-#line 1340 "/Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug/parser.c"
+#line 1340 "/Users/mennokonijn/Desktop/Compiler-Constructions/build-debug/parser.c"
     break;
 
   case 14: /* floatval: FLOAT  */
@@ -1344,7 +1344,7 @@ yyreduce:
            {
              (yyval.node) = ASTfloat((yyvsp[0].cflt));
            }
-#line 1348 "/Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug/parser.c"
+#line 1348 "/Users/mennokonijn/Desktop/Compiler-Constructions/build-debug/parser.c"
     break;
 
   case 15: /* intval: NUM  */
@@ -1352,7 +1352,7 @@ yyreduce:
         {
           (yyval.node) = ASTnum((yyvsp[0].cint));
         }
-#line 1356 "/Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug/parser.c"
+#line 1356 "/Users/mennokonijn/Desktop/Compiler-Constructions/build-debug/parser.c"
     break;
 
   case 16: /* boolval: TRUEVAL  */
@@ -1360,7 +1360,7 @@ yyreduce:
          {
            (yyval.node) = ASTbool(true);
          }
-#line 1364 "/Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug/parser.c"
+#line 1364 "/Users/mennokonijn/Desktop/Compiler-Constructions/build-debug/parser.c"
     break;
 
   case 17: /* boolval: FALSEVAL  */
@@ -1368,83 +1368,83 @@ yyreduce:
          {
            (yyval.node) = ASTbool(false);
          }
-#line 1372 "/Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug/parser.c"
+#line 1372 "/Users/mennokonijn/Desktop/Compiler-Constructions/build-debug/parser.c"
     break;
 
   case 18: /* binop: PLUS  */
 #line 137 "src/scanparse/parser.y"
                  { (yyval.cbinop) = BO_add; }
-#line 1378 "/Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug/parser.c"
+#line 1378 "/Users/mennokonijn/Desktop/Compiler-Constructions/build-debug/parser.c"
     break;
 
   case 19: /* binop: MINUS  */
 #line 138 "src/scanparse/parser.y"
                  { (yyval.cbinop) = BO_sub; }
-#line 1384 "/Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug/parser.c"
+#line 1384 "/Users/mennokonijn/Desktop/Compiler-Constructions/build-debug/parser.c"
     break;
 
   case 20: /* binop: STAR  */
 #line 139 "src/scanparse/parser.y"
                  { (yyval.cbinop) = BO_mul; }
-#line 1390 "/Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug/parser.c"
+#line 1390 "/Users/mennokonijn/Desktop/Compiler-Constructions/build-debug/parser.c"
     break;
 
   case 21: /* binop: SLASH  */
 #line 140 "src/scanparse/parser.y"
                  { (yyval.cbinop) = BO_div; }
-#line 1396 "/Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug/parser.c"
+#line 1396 "/Users/mennokonijn/Desktop/Compiler-Constructions/build-debug/parser.c"
     break;
 
   case 22: /* binop: PERCENT  */
 #line 141 "src/scanparse/parser.y"
                  { (yyval.cbinop) = BO_mod; }
-#line 1402 "/Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug/parser.c"
+#line 1402 "/Users/mennokonijn/Desktop/Compiler-Constructions/build-debug/parser.c"
     break;
 
   case 23: /* binop: LE  */
 #line 142 "src/scanparse/parser.y"
                  { (yyval.cbinop) = BO_le; }
-#line 1408 "/Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug/parser.c"
+#line 1408 "/Users/mennokonijn/Desktop/Compiler-Constructions/build-debug/parser.c"
     break;
 
   case 24: /* binop: LT  */
 #line 143 "src/scanparse/parser.y"
                  { (yyval.cbinop) = BO_lt; }
-#line 1414 "/Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug/parser.c"
+#line 1414 "/Users/mennokonijn/Desktop/Compiler-Constructions/build-debug/parser.c"
     break;
 
   case 25: /* binop: GE  */
 #line 144 "src/scanparse/parser.y"
                  { (yyval.cbinop) = BO_ge; }
-#line 1420 "/Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug/parser.c"
+#line 1420 "/Users/mennokonijn/Desktop/Compiler-Constructions/build-debug/parser.c"
     break;
 
   case 26: /* binop: GT  */
 #line 145 "src/scanparse/parser.y"
                  { (yyval.cbinop) = BO_gt; }
-#line 1426 "/Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug/parser.c"
+#line 1426 "/Users/mennokonijn/Desktop/Compiler-Constructions/build-debug/parser.c"
     break;
 
   case 27: /* binop: EQ  */
 #line 146 "src/scanparse/parser.y"
                  { (yyval.cbinop) = BO_eq; }
-#line 1432 "/Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug/parser.c"
+#line 1432 "/Users/mennokonijn/Desktop/Compiler-Constructions/build-debug/parser.c"
     break;
 
   case 28: /* binop: OR  */
 #line 147 "src/scanparse/parser.y"
                  { (yyval.cbinop) = BO_or; }
-#line 1438 "/Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug/parser.c"
+#line 1438 "/Users/mennokonijn/Desktop/Compiler-Constructions/build-debug/parser.c"
     break;
 
   case 29: /* binop: AND  */
 #line 148 "src/scanparse/parser.y"
                  { (yyval.cbinop) = BO_and; }
-#line 1444 "/Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug/parser.c"
+#line 1444 "/Users/mennokonijn/Desktop/Compiler-Constructions/build-debug/parser.c"
     break;
 
 
-#line 1448 "/Users/mennokonijn/Desktop/School/premaster/compilerConstructions/test/civicc-skeleton/build-debug/parser.c"
+#line 1448 "/Users/mennokonijn/Desktop/Compiler-Constructions/build-debug/parser.c"
 
       default: break;
     }
