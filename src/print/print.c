@@ -168,7 +168,11 @@ node_st *PRTprogram(node_st *node)
 node_st *PRTdecls(node_st *node)
 {
     TRAVdecl(node);
-    TRAVnext(node);
+    if (TRAVnext(node)) {
+        printf(", ");
+        TRAVnext(node);
+    }
+    
 
     return node;
 }
