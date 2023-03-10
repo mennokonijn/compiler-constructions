@@ -346,6 +346,7 @@ node_st *PRTglobdecl(node_st *node)
     printf("%s %s", getTypeString(GLOBDECL_TYPE(node)), GLOBDECL_NAME(node));
     TRAVdims(node);
 
+    printf(";")
     return node;
 }
 
@@ -364,7 +365,7 @@ node_st *PRTglobdef(node_st *node)
         printf(" = ");
         TRAVinit(node);
     }
-
+    printf(";")
     return node;
 }
 
@@ -381,7 +382,6 @@ node_st *PRTparam(node_st *node)
         printf(', ')
         TRAVnext(node);
     }
-    printf(";")
     return node;
 }
 
@@ -402,6 +402,7 @@ node_st *PRTvardecl(node_st *node)
         print(", ")
         TRAVnext(node);
     }
+    printf(";")
 
     return node;
 }
