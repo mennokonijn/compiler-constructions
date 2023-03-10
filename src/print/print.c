@@ -266,7 +266,14 @@ node_st *PRTwhile(node_st *node)
  */
 node_st *PRTdowhile(node_st *node)
 {
-    return node;
+
+printf("do\n{\n");
+TRAVcond(node);
+printf("\n} while(");
+TRAVblock(node);
+printf(");\n");
+
+return node;
 }
 
 /**
