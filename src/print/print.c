@@ -262,7 +262,7 @@ node_st *PRTfundef(node_st *node)
     printf("%s %s (", getTypeString(FUNDEF_TYPE(node)), FUNDEF_NAME(node));
     TRAVparams(node);
     printf(") \n {");
-    FUNDEF_BODY(node);
+    TRAVbody(node);
     printf("\n}");
     return node;
 }
