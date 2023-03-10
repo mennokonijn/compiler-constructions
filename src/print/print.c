@@ -11,6 +11,8 @@
 #include "ccngen/ast.h"
 #include "ccngen/trav.h"
 #include "palm/dbug.h"
+#include "user_types.h"
+
 
 /**
  * @fn PRTstmts
@@ -101,6 +103,23 @@ node_st *PRTbinop(node_st *node)
     printf( ")(%d:%d-%d)", NODE_BLINE(node), NODE_BCOL(node), NODE_ECOL(node));
 
     return node;
+}
+
+const char *getTypeString(valType type) {
+    switch (type) {
+    case CT_void:
+        return "void";
+    case CT_bool:
+        return "bool";
+    case CT_int:
+        return "int";
+    case CT_float:
+        return "float";
+    default:
+        return "NULL";
+  }
+
+  return "unknown";
 }
 
 /**
@@ -226,6 +245,9 @@ node_st *PRTcast(node_st *node)
  */
 node_st *PRTfundefs(node_st *node)
 {
+    TRAVfundef(node);
+    printf("\n");
+    TRAVnext(node);
     return node;
 }
 
@@ -234,6 +256,14 @@ node_st *PRTfundefs(node_st *node)
  */
 node_st *PRTfundef(node_st *node)
 {
+    if (FUNDEF_EXPORT(node) != NULL) {
+        printf('export ');
+    }
+    printf("%s %s (", getTypeString(FUNDEF_TYPE(node)), FUNDEF_NAME(node));
+    TRAVparams(node);
+    printf(") \n {");
+    FUNDEF_BODY(node);
+    printf("\n}");
     return node;
 }
 
@@ -242,6 +272,9 @@ node_st *PRTfundef(node_st *node)
  */
 node_st *PRTfunbody(node_st *node)
 {
+    TRAVdecls(node);
+    TRAVstmts(node);
+    TRAVlocal_fundefs(node);
     return node;
 }
 
@@ -250,6 +283,17 @@ node_st *PRTfunbody(node_st *node)
  */
 node_st *PRTifelse(node_st *node)
 {
+    printf("if (");
+    TRAVcond(node);
+    printf(") \n{");
+    TRAVthen(node);
+    print("} \n");
+    if (IFELSE_ELSE_BLOCK(node) != NULL) {
+        printf("else {");
+        TRAVelse_block(node);
+        printf("} \n");
+    }
+
     return node;
 }
 
@@ -259,9 +303,9 @@ node_st *PRTifelse(node_st *node)
 node_st *PRTwhile(node_st *node)
 {
     printf("while (");
-    WHILE_COND(node) = TRAVdo(WHILE_COND(node));
+    TRAVcond(node);
     printf(") \n{");
-    WHILE_BLOCK(node) = TRAVdo(WHILE_BLOCK(node));
+    TRAVblock(node);
     printf("\n}");
 
     return node;
@@ -280,6 +324,16 @@ node_st *PRTdowhile(node_st *node)
  */
 node_st *PRTfor(node_st *node)
 {
+    printf("for ( int %s = ", FOR_VAR(node));
+    FOR_START_EXPR(node);
+    printF(", ");
+    FOR_STOP(node);
+    printF(", ");
+    FOR_STEP(node);
+    printf(") \n{");
+    TRAVblock(node);
+    printf("\n}");
+
     return node;
 }
 
@@ -288,6 +342,10 @@ node_st *PRTfor(node_st *node)
  */
 node_st *PRTglobdecl(node_st *node)
 {
+    printf("extern ");
+    printf("%s %s", getTypeString(GLOBDECL_TYPE(node)), GLOBDECL_NAME(node));
+    TRAVdims(node);
+
     return node;
 }
 
@@ -296,6 +354,17 @@ node_st *PRTglobdecl(node_st *node)
  */
 node_st *PRTglobdef(node_st *node)
 {
+
+    if (GLOBDEF_EXPORT(node) == true) {
+        printf("export ");
+    }
+    printf("%s %s", getTypeString(GLOBDEF_TYPE(node)), GLOBDEF_NAME(node));
+    TRAVdims(node);
+    if (GLOBDEF_INIT(node) != NULL) {
+        printf(" = ");
+        TRAVinit(node);
+    }
+
     return node;
 }
 
@@ -304,6 +373,15 @@ node_st *PRTglobdef(node_st *node)
  */
 node_st *PRTparam(node_st *node)
 {
+    printf("%s %s", getTypeString(PARAM_TYPE(node)), PARAM_NAME(node));
+
+    TRAVdims(node);
+
+    if (PARAM_NEXT(node) != NULL) {
+        printf(', ')
+        TRAVnext(node);
+    }
+    printf(";")
     return node;
 }
 
@@ -312,6 +390,19 @@ node_st *PRTparam(node_st *node)
  */
 node_st *PRTvardecl(node_st *node)
 {
+    printf("%s %s", getTypeString(VARDECL_TYPE(node)), VARDECL_NAME(node));
+    TRAVdims(node);
+
+    if (VARDECL_INIT(node) != null) {
+        printf(" = ")
+        TRAVinit(node);
+    }
+
+    if (VARDECL_NEXT(node) != null) {
+        print(", ")
+        TRAVnext(node);
+    }
+
     return node;
 }
 
@@ -320,6 +411,18 @@ node_st *PRTvardecl(node_st *node)
  */
 node_st *PRTmonop(node_st *node)
 {
+
+   switch (MONOP_OP(node)) {
+    case MO_neg:
+      tmp = "-";
+      break;
+    case MO_not:
+      tmp = "!";
+      break;
+    case MO_NULL:
+      DBUG_ASSERT(false, "unknown monop detected!");
+    }
+
+    printf( "%s", tmp);
     return node;
 }
-
