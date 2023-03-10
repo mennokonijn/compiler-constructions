@@ -258,6 +258,12 @@ node_st *PRTifelse(node_st *node)
  */
 node_st *PRTwhile(node_st *node)
 {
+    printf("while (");
+    WHILE_COND(node) = TRAVdo(WHILE_COND(node));
+    printf(") \n{");
+    WHILE_BLOCK(node) = TRAVdo(WHILE_BLOCK(node));
+    printf("\n}");
+
     return node;
 }
 
