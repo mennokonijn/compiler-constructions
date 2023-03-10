@@ -40,16 +40,26 @@ void AddLocToNode(node_st *node, void *begin_loc, void *end_loc);
 %token <id> ID
 
 %type <node> intval floatval boolval constant expr
-%type <node> stmts stmt assign varlet program
+%type <node> stmts stmt assign varlet program decls decl
 %type <cbinop> binop
 
 %start program
 
 %%
 
-program: stmts
+program: decl
         {
           parseresult = ASTprogram($1);
+        }
+        ;
+
+decls: decl decls
+        {
+          $$ = ASTdecl($1, $2);
+        }
+      | decl
+        {
+          $$ = ASTdecls($1, NULL);
         }
         ;
 

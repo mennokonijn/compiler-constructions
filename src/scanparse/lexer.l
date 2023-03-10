@@ -41,6 +41,10 @@ int yycolumn = 1;
 ")"                        { FILTER( BRACKET_R); }
 ","                        { FILTER( COMMA); }
 ";"                        { FILTER( SEMICOLON); }
+"["                        { FILTER( SQR_BRACKET_L); }
+"]"                        { FILTER( SQR_BRACKET_R); }
+"{"                        { FILTER( CURL_BRACKET_L); }
+"}"                        { FILTER( CURL_BRACKET_R); }
 
 "-"                        { FILTER( MINUS); }
 "+"                        { FILTER( PLUS);  }
@@ -57,10 +61,30 @@ int yycolumn = 1;
 "&&"                       { FILTER( AND);    }
 "||"                       { FILTER( OR);    }
 
-"="                        { FILTER( LET);    }
+// Assignmnets
+"="                        { FILTER( LET); }
+"!"                        { FILTER( NEG); }
 
 "true"                     { FILTER( TRUEVAL); }
 "false"                    { FILTER( FALSEVAL); }
+
+// statements and loops
+"if"                       { FILTER( IF); }
+"else"                     { FILTER( ELSE); }
+"while"                    { FILTER( WHILE); }
+"for"                      { FILTER( FOR); }
+"do"                       { FILTER( DO); }
+
+// statements
+"extern"                   { FILTER( EXT); }
+"export"                   { FILTER( EXP); }
+"return"                   { FILTER( RET); }
+
+// type definitions
+"int"                      { FILTER( INT); }
+"float"                    { FILTER( FLOAT); }
+"void"                     { FILTER( VOID); }
+"bool"                     { FILTER( BOOL); }
 
 [A-Za-z][A-Za-z0-9_]*      { yylval.id = STRcpy(yytext);
                              FILTER( ID);
@@ -68,6 +92,16 @@ int yycolumn = 1;
 
 [0-9]+                     { yylval.cint=atoi(yytext);
                              FILTER( NUM);
+                           }
+
+"//"(.*)                   { 
+                             // Ignore single-line comments
+                             yycolumn += yyleng;
+                           }
+
+"/*"([^*]|\*+[^*/])*\*+"/" { 
+                             // Ignore multi-line comments
+                             yycolumn += yyleng;
                            }
 
 \n.*                       { 
