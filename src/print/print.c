@@ -154,7 +154,12 @@ node_st *PRTbool(node_st *node)
  */
 node_st *PRTprogram(node_st *node)
 {
+    TRAVdecls(node);
+    printf("\n");
+    // Hier nog iets? -> PROGRAM_SYMBOLTABLE(arg_node) = TRAVopt(PROGRAM_SYMBOLTABLE(arg_node), arg_info);
+
     return node;
+
 }
 
 /**
@@ -162,6 +167,9 @@ node_st *PRTprogram(node_st *node)
  */
 node_st *PRTdecls(node_st *node)
 {
+    TRAVdecl(node);
+    TRAVnext(node);
+
     return node;
 }
 
@@ -170,6 +178,14 @@ node_st *PRTdecls(node_st *node)
  */
 node_st *PRTexprs(node_st *node)
 {
+    TRAVexpr(node);
+
+    if (EXPRS_NEXT(node));
+    {
+        printf(", ");
+        TRAVnext(node);
+    }
+
     return node;
 }
 
@@ -178,6 +194,7 @@ node_st *PRTexprs(node_st *node)
  */
 node_st *PRTarrexpr(node_st *node)
 {
+    TRAVexprs(node);
     return node;
 }
 
@@ -186,6 +203,7 @@ node_st *PRTarrexpr(node_st *node)
  */
 node_st *PRTids(node_st *node)
 {
+    TRAVnext(node);
     return node;
 }
 
@@ -194,6 +212,9 @@ node_st *PRTids(node_st *node)
  */
 node_st *PRTexprstmt(node_st *node)
 {
+    // (?) tabs(arg_info);
+    TRAVexpr(node);
+    printf(";\n");
     return node;
 }
 
@@ -202,6 +223,15 @@ node_st *PRTexprstmt(node_st *node)
  */
 node_st *PRTreturn(node_st *node)
 {
+    printf("return");
+     
+    if (TRAVexpr(node))
+    {
+        printf(" ");
+        TRAVexpr(node);
+    }
+    printf(";\n");
+
     return node;
 }
 
@@ -210,6 +240,11 @@ node_st *PRTreturn(node_st *node)
  */
 node_st *PRTfuncall(node_st *node)
 {
+
+    printf("%s(", FUNCALL_NAME(node));
+    TRAVargs(node);
+    printf(")\n");
+
     return node;
 }
 
@@ -218,6 +253,11 @@ node_st *PRTfuncall(node_st *node)
  */
 node_st *PRTcast(node_st *node)
 {
+    // (?) typeToString
+    printf("( %s )", getTypeString(CAST_TYPE(node)));
+    
+    TRAVexpr(node);
+
     return node;
 }
 
